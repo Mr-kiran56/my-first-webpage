@@ -4,13 +4,196 @@ h1 {
     margin: 0 auto;
 }
 
+h2 {
+    color: #4c9a4d;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+body {
+    margin: 0;
+    text-transform: capitalize;
+    padding-left: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.myname {
+    font-size: 25px;
+    font-weight: 510;
+    padding-left: 15px;
+}
+
+#perfectclass {
+    font-size: 25px;
+    padding-left: 12px;
+}
+
+#banner {
+    width:100%;
+    padding: 0px;
+
+
+}
+
+#image {
+    width: 100%;
+    border-radius: 20px;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#wb {
+    color: rgb(120, 118, 118);
+}
+
+.ai {
+    color: rgb(120, 118, 118);
+}
+
+.ml {
+    color: rgb(120, 118, 118)
+}
+
+.Courses {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#but2 {
+    padding: 5px 5px 5px 5px;
+
+    background-color: rgb(15, 226, 188);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#but1 {
+    display: none;
+}
+
+#job3 {
+    border: 2px solid #fcfcfc;
+    margin-top: 8px;
+    padding: 10px;
+    padding-left: 35px;
+    background-color: #000050;
+
+    color: white;
+}
+
+.tables {
+    display: none;
+}
+
+#app {
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#applicationform div {
+    padding: 8px;
+}
+
+#applicationform input {
+    padding: 6px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-color: rgb(170, 169, 169);
+    margin-top: 10px;
+
+}
+
+#applicationform label {
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 17px;
+
+}
+
+.position input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#box input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.submit input {
+    background-color: rgb(182, 250, 250);
+    color: black;
+}
+
+#foll {
+    background-color: rgb(253, 253, 250);
+
+   
+    text-align: center;
+}
+
+#fll {
+    list-style: none;
+  
+  padding: 0px;
+   
+}
+
+#fll li {
+    display: block;
+    margin: 0 20px;
+   
+
+}
+
+a {
+    text-decoration: none;
+    color: #0EA5E9;
+}
+
+a:hover {
+    color: blue;
+}
+
+#sou {
+    max-width: 800px;
+    text-align: center;
+
+    color: rgb(180, 179, 179);
+}
+
+@media screen and (min-width:576px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {}
+
+
+
+
+
+
+
+
+
+/*h1 {
+    text-align: center;
+    color: #4c9a4d;
+    margin: 0 auto;
+}
+
 #banner {
     width: 100%;
 
 }
 
 h2 {
-    color:#4c9a4d ;
+    color: #4c9a4d;
     text-align: center;
     margin: 0 auto;
 }
@@ -32,8 +215,9 @@ h2 {
     width: 50%;
 
 }
-#image{
-    width:100%;
+
+#image {
+    width: 100%;
     border-radius: 20px;
     height: 360px;
     margin-top: 20px;
@@ -44,7 +228,10 @@ body {
     margin: 0;
     text-transform: capitalize;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;};
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
 
 #image {
     width: 100%;
@@ -91,11 +278,13 @@ body {
 
 a {
     text-decoration: none;
-    color:#0EA5E9;
+    color: #0EA5E9;
 }
-a:hover{
+
+a:hover {
     color: blue;
 }
+
 #sou {
     max-width: 800px;
     text-align: center;
@@ -104,81 +293,76 @@ a:hover{
 }
 
 #but1 {
-   float: right;
-   padding: 5px 5px 5px 5px;
-   color:cadetblue;
-   border-radius: 30px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- }
+    float: right;
+    padding: 5px 5px 5px 5px;
+    color: cadetblue;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-.apply{
+.apply {
     float: right;
 }
 
 
 
-#bor{
+#bor {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
     padding-top: 20px;
- 
+
 }
-#bam th{
+
+#bam th {
     padding: 5px;
 }
-#bam td{
+
+#bam td {
     padding: 5px;
 }
 
 
-#but1{
+#but1 {
     border-radius: 9px;
- background-color:rgb(151, 211, 151);
- font-weight: 600;
- color: rgb(10, 10, 10);
+    background-color: rgb(151, 211, 151);
+    font-weight: 600;
+    color: rgb(10, 10, 10);
 
 }
-#applicationform div{
+
+#applicationform div {
     padding: 8px;
 }
 
 #applicationform input {
- padding: 6px;
+    padding: 6px;
     font-size: 1.5rem;
     border-radius: 5px;
     border-color: rgb(170, 169, 169);
     margin-top: 10px;
-    
+
 }
-#applicationform label{
+
+#applicationform label {
     font-weight: 600;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     font-size: 17px;
 
 }
-.position input{
+
+.position input {
     padding: 10px;
     border-radius: 5px;
 }
 
 
 #box input[type="checkbox"] {
-width: 20px;
-height: 20px;
+    width: 20px;
+    height: 20px;
 }
-.submit input{
+
+.submit input {
     background-color: rgb(182, 250, 250);
     color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
+}*/
